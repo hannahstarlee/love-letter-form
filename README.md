@@ -6,8 +6,12 @@ a silly little form made with html and css to romanticize debugging and cry over
 - cute form with custom questions about your ~relationship~ with your code
 - minimal + pastel styling (css-only!)
 
-## 💻 live preview
-check it out here → [hannahstarlee.github.io/love-letter-form](https://hannahstarlee.github.io/love-letter-form)
+## 💻 how to run locally
+clone this repo and open it in your browser  
+```bash
+git clone https://github.com/hannahstarlee/love-letter-form.git
+cd love-letter-form
+open index.html  # or use live server in vscode
 
 ## tech used
 - html5
