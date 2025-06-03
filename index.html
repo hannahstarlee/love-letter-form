@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>💌 love letter to your code</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1 id="title">💌 love letter to your code</h1>
+        <p id="description">tell your code how much it means to you 𐙚🧸</p>
+        <form id="survey-form">
+            <fieldset>
+                <label for="email" id="email-label">enter your email: <input id="email" name="email" type="email" placeholder="your@email.com" required /></label>
+                <label for="name" id="name-label">nickname for your beloved code? <input id="name" name="name" type="text" placeholder="e.g. code princess" required /></label>
+                <label for="number" id="number-label">rate how much you love your code from 1 to 10:  <input id="number" name="number" type="number" min="1" max="10" placeholder="7" /></label>
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">how would you describe your relationship with your code?</label>
+                    <select id="dropdown">
+                        <option value="">select (be wise, you may hurt its feelings)</option>
+                        <option value="1">it's complicated... but beautiful</option>
+                        <option value="2">we're in our honeymoon phase</option>
+                        <option value="3">i love it even when it breaks me</option>
+                        <option value="4">high highs, low lows — but we always come back</option>
+                        <option value="5">i think it's the one 🥹</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                <legend>how does your code make you feel?</legend>
+                <label for="feeling"><input id="feeling1" type="radio" name="feeling" value="butterflies" checked />butterflies every time it compiles ˶ᵔ ᵕ ᵔ˶</label>
+                <label for="feeling"><input id="feeling2" type="radio" name="feeling" value="heartbroken" />heartbroken, it ghosted me with a runtime error ˙◠˙</label>
+            </fieldset>
+            <fieldset>
+                <legend>when do you feel closest to your code?</legend>
+                <label for="closest"><input id="closest1" type="checkbox" name="closest" value="1">when we debug together in silence</label>
+                <label for="closest"><input id="closest2" type="checkbox" name="closest" value="2">when i finally name a variable something meaningful</label>
+                <label for="closest"><input id="closest3" type="checkbox" name="closest" value="3">when it surprises me with working output</label>
+                <label for="closest"><input id="closest4" type="checkbox" name="closest" value="4">when i realize i overthought everything and it was missing a semicolon</label>
+                <label for="closest"><input id="closest5" type="checkbox" name="closest" value="5">when i copy-paste from stack overflow and it still loves me</label>
+            </fieldset>
+            <fieldset>
+                <label for="etc">vent, confess, or gush about your code below ✎ <textarea id="etc" name="etc" rows="3" cols="30" placeholder="dear code, i just need to tell you…"></textarea></label>
+            </fieldset>
+            <input type="submit" id="submit" value="send"/>
+        </form>
+    </body>
+</html>
