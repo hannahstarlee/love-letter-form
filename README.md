@@ -11,7 +11,8 @@ clone this repo and open it in your browser
 ```bash
 git clone https://github.com/hannahstarlee/love-letter-form.git
 cd love-letter-form
-open index.html  # or use live server in vscode```
+open index.html  # or use live server in vscode
+```
 
 ## tech used
 - html5
