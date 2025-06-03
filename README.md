@@ -7,8 +7,7 @@ a silly little form made with html and css to romanticize debugging and cry over
 - minimal + pastel styling (css-only!)
 
 ## 💻 how to run locally
-clone this repo and open it in your browser  
-```bash
+```
 git clone https://github.com/hannahstarlee/love-letter-form.git
 cd love-letter-form
 open index.html  # or use live server in vscode
